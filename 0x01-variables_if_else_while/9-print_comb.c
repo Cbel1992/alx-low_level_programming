@@ -10,10 +10,17 @@
 
 int main(void)
 {
-	char low;
+	int d;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
+	for (d = '0'; d <= '9'; d++)
+	{
+		putchar(d);
+		if (d != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
 	putchar('\n');
 
 	return (0);
