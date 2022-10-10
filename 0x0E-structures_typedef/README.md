@@ -1,1 +1,1 @@
-struct is a c function used in entering data for documentation
+working with structure on c
